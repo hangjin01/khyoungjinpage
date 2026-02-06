@@ -51,15 +51,11 @@ export function Hero() {
                 transition={{ duration: 0.5, delay: 0.4 }}
                 className="mt-12 flex gap-6 text-gray-500 dark:text-gray-400"
             >
-                <Link href="https://github.com/yourusername" target="_blank" className="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">
+                <Link href="https://github.com/hangjin01" target="_blank" className="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">
                     <Github size={24} />
                     <span className="sr-only">GitHub</span>
                 </Link>
-                <Link href="https://linkedin.com/in/yourusername" target="_blank" className="hover:text-blue-700 dark:hover:text-blue-400 transition-colors">
-                    <Linkedin size={24} />
-                    <span className="sr-only">LinkedIn</span>
-                </Link>
-                <Link href="mailto:your@email.com" className="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">
+                <Link href="mailto:khyoungjin011@gmail.com" className="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">
                     <Mail size={24} />
                     <span className="sr-only">Email</span>
                 </Link>

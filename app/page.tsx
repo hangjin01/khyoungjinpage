@@ -69,11 +69,15 @@ export default function Home() {
           </p>
           <div className="mt-8">
             <a
-              href="mailto:your@email.com"
+              href="mailto:khyoungjin011@gmail.com"
               className="inline-flex h-12 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
             >
               메일 보내기
             </a>
+            <div className="mt-4 text-gray-500 dark:text-gray-400">
+              <p>Email: khyoungjin011@gmail.com</p>
+              <p>Phone: 010-4905-9607</p>
+            </div>
           </div>
         </div>
       </section>
