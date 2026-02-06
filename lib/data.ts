@@ -1,33 +1,63 @@
 
 export const projects = [
     {
-        title: "이커머스 대시보드",
-        description: "상품, 주문, 분석 관리를 위한 종합 대시보드입니다. Next.js와 Tailwind CSS로 제작되었습니다. Recharts를 이용한 실시간 데이터 시각화, 다크 모드 지원, 모든 기기에서 작동하는 반응형 디자인이 특징입니다.",
-        tags: ["Next.js", "React", "Tailwind CSS", "Recharts"],
-        demoLink: "https://example.com",
-        repoLink: "https://github.com/example/repo",
-        slug: "ecommerce-dashboard",
-        date: "2024",
-        content: "이커머스 대시보드 프로젝트에 대한 상세 설명입니다..."
+        title: "Domo Frontend",
+        description: "TypeScript 기반의 프론트엔드 애플리케이션입니다. 사용자 인터페이스 구축 및 데이터 연동을 담당합니다.",
+        tags: ["TypeScript", "React", "Frontend"],
+        demoLink: "#",
+        repoLink: "https://github.com/hangjin01/domo_frontend",
+        slug: "domo-frontend",
+        date: "2026",
+        content: "Domo 프로젝트의 프론트엔드 리포지토리입니다. 주요 기능 구현 및 UI 개선 작업에 기여했습니다."
     },
     {
-        title: "일정 관리 앱",
-        description: "Socket.io와 Node.js 백엔드를 사용하여 실시간 업데이트가 가능한 협업 일정 관리 도구입니다.",
-        tags: ["React", "Node.js", "Socket.io", "MongoDB"],
-        demoLink: "https://example.com",
-        repoLink: "https://github.com/example/repo",
-        slug: "task-manager",
-        date: "2023",
-        content: "일정 관리 앱 프로젝트에 대한 상세 설명입니다..."
+        title: "Domo Backend",
+        description: "Python으로 구축된 백엔드 서버입니다. API 처리 및 로직 구현을 담당합니다.",
+        tags: ["Python", "Backend"],
+        demoLink: "#",
+        repoLink: "https://github.com/hangjin01/domo_backend",
+        slug: "domo-backend",
+        date: "2026",
+        content: "Domo 프로젝트의 백엔드 시스템입니다. 데이터 처리 및 API 엔드포인트 구현을 진행했습니다."
+    },
+    {
+        title: "Smart Form Frontend",
+        description: "스마트 폼 생성을 위한 프론트엔드 프로젝트입니다. TypeScript를 사용하여 안정적인 폼 동작을 구현했습니다.",
+        tags: ["TypeScript", "Frontend"],
+        demoLink: "#",
+        repoLink: "https://github.com/hangjin01/Smart-Form-Front-end",
+        slug: "smart-form-frontend",
+        date: "2026",
+        content: "스마트 폼 솔루션의 클라이언트 사이드 구현체입니다."
+    },
+    {
+        title: "Java Backend",
+        description: "Java를 이용한 백엔드 시스템입니다. 안정적인 서버 아키텍처를 목표로 합니다.",
+        tags: ["Java", "Backend"],
+        demoLink: "#",
+        repoLink: "https://github.com/hangjin01/Back-end",
+        slug: "java-backend",
+        date: "2026",
+        content: "Java 기반의 서버 애플리케이션 개발 프로젝트입니다."
+    },
+    {
+        title: "Image 3D Slider",
+        description: "이미지 3D 슬라이더 UI 컴포넌트입니다. 인터랙티브한 시각 효과를 제공합니다.",
+        tags: ["UI", "Animation"],
+        demoLink: "#",
+        repoLink: "https://github.com/hangjin01/image_3dslider",
+        slug: "image-3dslider",
+        date: "2026",
+        content: "3D 효과가 적용된 이미지 슬라이더 구현입니다."
     },
     {
         title: "포트폴리오 웹사이트",
-        description: "현재 보고 계신 웹사이트입니다! 저의 프로젝트와 기술을 보여주는 개인 포트폴리오입니다.",
-        tags: ["Next.js", "TypeScript", "Framer Motion"],
-        demoLink: "https://example.com",
-        repoLink: "https://github.com/example/repo",
+        description: "Next.js와 TypeScript로 제작된 개인 포트폴리오 사이트입니다. GitHub Actions를 통해 자동 배포됩니다.",
+        tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+        demoLink: "https://hangjin01.github.io/khyoungjinpage",
+        repoLink: "https://github.com/hangjin01/khyoungjinpage",
         slug: "portfolio",
-        date: "2024",
-        content: "이 포트폴리오를 어떻게 만들었는지에 대한 내용..."
+        date: "2026",
+        content: "현재 보고 계신 이 웹사이트의 소스 코드입니다. 반응형 디자인과 다크 모드를 지원합니다."
     }
 ];
