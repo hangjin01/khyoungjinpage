@@ -12,17 +12,6 @@ export const projects = [
         image: "/images/domo.png"
     },
     {
-        title: "Domo Backend",
-        description: "Python으로 구축된 백엔드 서버입니다. API 처리 및 로직 구현을 담당합니다.",
-        tags: ["Python", "Backend"],
-        demoLink: "#",
-        repoLink: "https://github.com/hangjin01/domo_backend",
-        slug: "domo-backend",
-        date: "2026",
-        content: "Domo 프로젝트의 백엔드 시스템입니다. 데이터 처리 및 API 엔드포인트 구현을 진행했습니다.",
-        image: "/images/domo.png"
-    },
-    {
         title: "Smart Form Frontend",
         description: "스마트 폼 생성을 위한 프론트엔드 프로젝트입니다. TypeScript를 사용하여 안정적인 폼 동작을 구현했습니다.",
         tags: ["TypeScript", "Frontend"],
@@ -53,7 +42,7 @@ export const projects = [
         slug: "image-3dslider",
         date: "2026",
         content: "3D 효과가 적용된 이미지 슬라이더 구현입니다.",
-        image: "/images/smartfarm.png"
+        image: "/images/slider.png"
     },
     {
         title: "포트폴리오 웹사이트",
@@ -64,6 +53,6 @@ export const projects = [
         slug: "portfolio",
         date: "2026",
         content: "현재 보고 계신 이 웹사이트의 소스 코드입니다. 반응형 디자인과 다크 모드를 지원합니다.",
-        image: "/images/smartfarm.png"
+        image: "/images/portfolio.png"
     }
 ];
