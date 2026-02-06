@@ -11,10 +11,10 @@ export default function ProjectsPage() {
         <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
             <div className="mb-12">
                 <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-5xl">
-                    Projects
+                    프로젝트
                 </h1>
                 <p className="mt-4 text-xl text-gray-500 dark:text-gray-400">
-                    A collection of projects I've worked on.
+                    제가 작업한 프로젝트들의 모음입니다.
                 </p>
             </div>
 

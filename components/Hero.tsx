@@ -16,14 +16,14 @@ export function Hero() {
                 className="space-y-4"
             >
                 <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
-                    Hi, I'm <span className="text-blue-600 dark:text-blue-500">Youngjin</span>
+                    안녕하세요, <span className="text-blue-600 dark:text-blue-500">형진</span>입니다.
                 </h1>
                 <h2 className="text-2xl font-bold text-gray-700 dark:text-gray-300 sm:text-3xl md:text-4xl">
-                    Full Stack Developer
+                    풀스택 개발자
                 </h2>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                    Building scalable, user-centric applications from front to back.
-                    Passionate about clean code and modern technologies.
+                    프론트엔드부터 백엔드까지, 확장 가능한 사용자 중심의 애플리케이션을 구축합니다.
+                    깔끔한 코드와 최신 기술에 열정을 가지고 있습니다.
                 </p>
             </motion.div>
 
@@ -35,12 +35,12 @@ export function Hero() {
             >
                 <Link href="/projects">
                     <Button size="lg" className="gap-2">
-                        View Projects <ArrowRight size={16} />
+                        프로젝트 보기 <ArrowRight size={16} />
                     </Button>
                 </Link>
                 <Link href="#contact">
                     <Button variant="outline" size="lg">
-                        Contact Me
+                        연락하기
                     </Button>
                 </Link>
             </motion.div>

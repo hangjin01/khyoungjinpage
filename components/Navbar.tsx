@@ -8,9 +8,9 @@ import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
 const navItems = [
-    { name: 'Home', href: '/' },
-    { name: 'Projects', href: '/projects' },
-    // { name: 'About', href: '/about' },
+    { name: '홈', href: '/' },
+    { name: '프로젝트', href: '/projects' },
+    // { name: '소개', href: '/about' },
 ];
 
 export function Navbar() {

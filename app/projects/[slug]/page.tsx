@@ -25,7 +25,7 @@ export default function ProjectLayout({ params }: { params: { slug: string } }) 
                 href="/projects"
                 className="inline-flex items-center text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 mb-8 transition-colors"
             >
-                <ArrowLeft className="mr-2 h-4 w-4" /> Back to Projects
+                <ArrowLeft className="mr-2 h-4 w-4" /> 프로젝트 목록으로 돌아가기
             </Link>
 
             <div className="space-y-4">
@@ -52,7 +52,7 @@ export default function ProjectLayout({ params }: { params: { slug: string } }) 
                 </div>
 
                 <div className="flex flex-wrap gap-2 text-sm">
-                    <span className="font-semibold text-gray-900 dark:text-gray-100 mr-2">Tech Stack:</span>
+                    <span className="font-semibold text-gray-900 dark:text-gray-100 mr-2">기술 스택:</span>
                     {project.tags.map(tag => (
                         <span key={tag} className="px-2 py-1 bg-gray-100 dark:bg-gray-800 rounded text-gray-600 dark:text-gray-300">
                             {tag}
@@ -65,7 +65,7 @@ export default function ProjectLayout({ params }: { params: { slug: string } }) 
                         {project.description}
                     </p>
                     <div className="mt-8">
-                        <h2 className="text-2xl font-bold mb-4">About this project</h2>
+                        <h2 className="text-2xl font-bold mb-4">프로젝트 소개</h2>
                         <p className="text-gray-600 dark:text-gray-300">
                             {project.content}
                         </p>
