@@ -4,35 +4,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import Link from 'next/link';
 import { ExternalLink, Github } from 'lucide-react';
 
-const projects = [
-    {
-        title: "E-Commerce Dashboard",
-        description: "A comprehensive dashboard for managing products, orders, and analytics. Built with Next.js and Tailwind CSS.",
-        tags: ["Next.js", "React", "Tailwind CSS", "Recharts"],
-        demoLink: "#",
-        repoLink: "#",
-        slug: "ecommerce-dashboard",
-        date: "2024"
-    },
-    {
-        title: "Task Management App",
-        description: "A collaborative task scheduler with real-time updates using Socket.io and Node.js backend.",
-        tags: ["React", "Node.js", "Socket.io", "MongoDB"],
-        demoLink: "#",
-        repoLink: "#",
-        slug: "task-manager",
-        date: "2023"
-    },
-    {
-        title: "Portfolio Website",
-        description: "This website! A personal portfolio showcasing my projects and skills.",
-        tags: ["Next.js", "TypeScript", "Framer Motion"],
-        demoLink: "#",
-        repoLink: "#",
-        slug: "portfolio",
-        date: "2024"
-    }
-];
+import { projects } from '@/lib/data';
 
 export default function ProjectsPage() {
     return (
