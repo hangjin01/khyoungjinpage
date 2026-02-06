@@ -8,7 +8,8 @@ export const projects = [
         repoLink: "https://github.com/hangjin01/domo_frontend",
         slug: "domo-frontend",
         date: "2026",
-        content: "Domo 프로젝트의 프론트엔드 리포지토리입니다. 주요 기능 구현 및 UI 개선 작업에 기여했습니다."
+        content: "Domo 프로젝트의 프론트엔드 리포지토리입니다. 주요 기능 구현 및 UI 개선 작업에 기여했습니다.",
+        image: "/images/domo.png"
     },
     {
         title: "Domo Backend",
@@ -18,7 +19,8 @@ export const projects = [
         repoLink: "https://github.com/hangjin01/domo_backend",
         slug: "domo-backend",
         date: "2026",
-        content: "Domo 프로젝트의 백엔드 시스템입니다. 데이터 처리 및 API 엔드포인트 구현을 진행했습니다."
+        content: "Domo 프로젝트의 백엔드 시스템입니다. 데이터 처리 및 API 엔드포인트 구현을 진행했습니다.",
+        image: "/images/domo.png"
     },
     {
         title: "Smart Form Frontend",
@@ -28,7 +30,8 @@ export const projects = [
         repoLink: "https://github.com/hangjin01/Smart-Form-Front-end",
         slug: "smart-form-frontend",
         date: "2026",
-        content: "스마트 폼 솔루션의 클라이언트 사이드 구현체입니다."
+        content: "스마트 폼 솔루션의 클라이언트 사이드 구현체입니다.",
+        image: "/images/smartfarm.png"
     },
     {
         title: "Java Backend",
@@ -38,7 +41,8 @@ export const projects = [
         repoLink: "https://github.com/hangjin01/Back-end",
         slug: "java-backend",
         date: "2026",
-        content: "Java 기반의 서버 애플리케이션 개발 프로젝트입니다."
+        content: "Java 기반의 서버 애플리케이션 개발 프로젝트입니다.",
+        image: "/images/smartfarm.png"
     },
     {
         title: "Image 3D Slider",
@@ -48,7 +52,8 @@ export const projects = [
         repoLink: "https://github.com/hangjin01/image_3dslider",
         slug: "image-3dslider",
         date: "2026",
-        content: "3D 효과가 적용된 이미지 슬라이더 구현입니다."
+        content: "3D 효과가 적용된 이미지 슬라이더 구현입니다.",
+        image: "/images/smartfarm.png"
     },
     {
         title: "포트폴리오 웹사이트",
@@ -58,6 +63,7 @@ export const projects = [
         repoLink: "https://github.com/hangjin01/khyoungjinpage",
         slug: "portfolio",
         date: "2026",
-        content: "현재 보고 계신 이 웹사이트의 소스 코드입니다. 반응형 디자인과 다크 모드를 지원합니다."
+        content: "현재 보고 계신 이 웹사이트의 소스 코드입니다. 반응형 디자인과 다크 모드를 지원합니다.",
+        image: "/images/smartfarm.png"
     }
 ];

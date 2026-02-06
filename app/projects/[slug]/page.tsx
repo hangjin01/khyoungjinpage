@@ -28,6 +28,17 @@ export default function ProjectLayout({ params }: { params: { slug: string } }) 
                 <ArrowLeft className="mr-2 h-4 w-4" /> 프로젝트 목록으로 돌아가기
             </Link>
 
+            {/* @ts-ignore */}
+            {project.image && (
+                <div className="mb-8 rounded-lg overflow-hidden border border-gray-200 dark:border-gray-800">
+                    <img
+                        src={project.image}
+                        alt={project.title}
+                        className="w-full h-48 sm:h-64 md:h-80 object-cover"
+                    />
+                </div>
+            )}
+
             <div className="space-y-4">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                     <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-5xl">

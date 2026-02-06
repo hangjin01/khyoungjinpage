@@ -21,9 +21,19 @@ export default function ProjectsPage() {
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                 {projects.map((project) => (
                     <Card key={project.slug} className="flex flex-col overflow-hidden hover:shadow-lg transition-shadow">
-                        <div className="aspect-video w-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-gray-400">
-                            {/* Placeholder for project image */}
-                            <span className="text-sm">Project Image</span>
+                        <div className="aspect-video w-full bg-gray-100 dark:bg-gray-800 overflow-hidden">
+                            {/* @ts-ignore - image property exists in data but maybe not in type def yet if strict */}
+                            {project.image ? (
+                                <img
+                                    src={project.image}
+                                    alt={project.title}
+                                    className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
+                                />
+                            ) : (
+                                <div className="w-full h-full flex items-center justify-center text-gray-400">
+                                    <span className="text-sm">Project Image</span>
+                                </div>
+                            )}
                         </div>
                         <CardHeader>
                             <div className="flex justify-between items-start">
